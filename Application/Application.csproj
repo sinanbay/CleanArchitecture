@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\" />
+    <None Remove="Common\Exceptions\" />
+    <None Remove="Common\Interfaces\" />
+    <None Remove="Common\Mappings\" />
+    <None Remove="Common\Models\" />
+    <None Remove="Common\Constants\" />
+    <None Remove="Common\Constants\Messages\" />
+    <None Remove="Common\Behaviours\" />
+    <None Remove="TodoLists\" />
+    <None Remove="TodoLists\Commands\" />
+    <None Remove="TodoLists\Queries\" />
+    <None Remove="TodoLists\Commands\CreateTodoList\" />
+    <None Remove="TodoLists\Commands\DeleteTodoList\" />
+    <None Remove="TodoLists\Commands\UpdateTodoList\" />
+    <None Remove="TodoLists\Queries\GetTodos\" />
+    <None Remove="TodoItems\" />
+    <None Remove="TodoItems\Commands\CreateTodoItem\" />
+    <None Remove="TodoItems\Commands\DeleteTodoItem\" />
+    <None Remove="TodoItems\Commands\UpdateTodoItem\" />
+    <None Remove="TodoItems\Queries\GetTodoItemsWithPagination\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Constants\" />
+    <Folder Include="Common\Constants\Messages\" />
+    <Folder Include="Common\Behaviours\" />
+    <Folder Include="TodoLists\" />
+    <Folder Include="TodoLists\Commands\" />
+    <Folder Include="TodoLists\Queries\" />
+    <Folder Include="TodoLists\Commands\CreateTodoList\" />
+    <Folder Include="TodoLists\Commands\DeleteTodoList\" />
+    <Folder Include="TodoLists\Commands\UpdateTodoList\" />
+    <Folder Include="TodoLists\Queries\GetTodos\" />
+    <Folder Include="TodoItems\" />
+    <Folder Include="TodoItems\Commands\CreateTodoItem\" />
+    <Folder Include="TodoItems\Commands\DeleteTodoItem\" />
+    <Folder Include="TodoItems\Commands\UpdateTodoItem\" />
+    <Folder Include="TodoItems\Queries\GetTodoItemsWithPagination\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+</Project>
