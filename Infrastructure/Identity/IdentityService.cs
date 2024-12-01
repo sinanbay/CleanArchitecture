@@ -1,5 +1,6 @@
 using CleanArchitecture.Application.Common.Interfaces;
 using CleanArchitecture.Application.Common.Models;
+using CleanArchitecture.Domain.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +53,7 @@ public class IdentityService : IIdentityService
     public async Task<bool> AuthorizeAsync(string userId, string policyName)
     {
         var user = await _userManager.FindByIdAsync(userId);
+        var ccc = await _userManager.FindByEmailAsync("sinan@sinan.com");
 
         if (user == null)
         {
@@ -60,7 +62,7 @@ public class IdentityService : IIdentityService
 
         var principal = await _userClaimsPrincipalFactory.CreateAsync(user);
 
-        var result = await _authorizationService.AuthorizeAsync(principal, policyName);
+        var result = await _authorizationService.AuthorizeAsync(principal, Policies.CanPurge);
 
         return result.Succeeded;
     }
