@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/Infrastructure.Messaging.csproj": {}
+  },
+  "projects": {
+    "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/Core.csproj",
+        "packagesPath": "/Users/sinanbayraktutan/.nuget/packages/",
+        "outputPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sinanbayraktutan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/sinanbayraktutan/Desktop/projeler/localNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/Domain.csproj",
+        "packagesPath": "/Users/sinanbayraktutan/.nuget/packages/",
+        "outputPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sinanbayraktutan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/sinanbayraktutan/Desktop/projeler/localNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/Infrastructure.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/Infrastructure.Messaging.csproj",
+        "projectName": "Infrastructure.Messaging",
+        "projectPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/Infrastructure.Messaging.csproj",
+        "packagesPath": "/Users/sinanbayraktutan/.nuget/packages/",
+        "outputPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sinanbayraktutan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/sinanbayraktutan/Desktop/projeler/localNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/Core.csproj": {
+                "projectPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/Core.csproj"
+              },
+              "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/Domain.csproj": {
+                "projectPath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.3.3, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

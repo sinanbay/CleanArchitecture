@@ -1,0 +1,12 @@
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/bin/Debug/net8.0/Core.deps.json
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/bin/Debug/net8.0/Core.dll
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/bin/Debug/net8.0/Core.pdb
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.sourcelink.json
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.dll
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/refint/Core.dll
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/Core.pdb
+/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Core/obj/Debug/net8.0/ref/Core.dll

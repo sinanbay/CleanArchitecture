@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "d7AcKWQD6xEoTWufh4p2ZUTcesZtt3pQXTZZCHdyUHLeZ5BIJzicAVCNvNykoU28NJbd31G0ghA9atrFb9dABw==",
+  "success": true,
+  "projectFilePath": "/Users/sinanbayraktutan/Desktop/my-net-work/git/CleanArchitecture/Infrastructure.Messaging/Infrastructure.Messaging.csproj",
+  "expectedPackageFiles": [
+    "/Users/sinanbayraktutan/.nuget/packages/masstransit/8.3.3/masstransit.8.3.3.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/masstransit.abstractions/8.3.3/masstransit.abstractions.8.3.3.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/masstransit.rabbitmq/8.3.3/masstransit.rabbitmq.8.3.3.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/8.0.0/microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/rabbitmq.client/7.0.0/rabbitmq.client.7.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/sinanbayraktutan/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
